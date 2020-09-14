@@ -32,6 +32,7 @@ use NumberToWords\NumberTransformer\GeorgianNumberTransformer;
 use NumberToWords\NumberTransformer\GermanNumberTransformer;
 use NumberToWords\NumberTransformer\HungarianNumberTransformer;
 use NumberToWords\NumberTransformer\IndonesianNumberTransformer;
+use NumberToWords\NumberTransformer\KazakhNumberTransformer;
 use NumberToWords\NumberTransformer\ItalianNumberTransformer;
 use NumberToWords\NumberTransformer\LatvianNumberTransformer;
 use NumberToWords\NumberTransformer\LithuanianNumberTransformer;
@@ -62,6 +63,7 @@ class NumberToWords
         'fr' => FrenchNumberTransformer::class,
         'fr_BE' => FrenchBelgianNumberTransformer::class,
         'hu' => HungarianNumberTransformer::class,
+        'kk' => KazakhNumberTransformer::class,
         'id' => IndonesianNumberTransformer::class,
         'it' => ItalianNumberTransformer::class,
         'lt' => LithuanianNumberTransformer::class,
